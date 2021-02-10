@@ -44,9 +44,9 @@ body {
 .main {
     width: 100%;
     height: 100vh;
+    align-items: center;
     display: flex;
     justify-content: center;
-    align-items: center;
     margin-right: auto;
     margin-left: auto;
     flex-direction: column;
@@ -88,4 +88,61 @@ body {
 .drinks-picture {
     width: 200px;
     height: 200px;
+}
+
+.contact {
+    width: 100%;
+    height: 30vh;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+#container {
+    width: 90%;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#contact-video {
+    width: 50%;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.contact-footer{
+width: 100%;
+display: flex;
+justify-content: center;
+}
+
+.contact-footer-picture{
+    width: 50px;
+}
+
+.cart-container {
+    width: 100%;
+    height: 100vh;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin-right: auto;
+    margin-left: auto;
+    flex-direction: column;
+}
+
+.cart-table{
+
+}
+
+.cart-total {
+
 }
